@@ -44,7 +44,12 @@ The AMS encompasses a wide range of features including:
 ![Contact Page](https://github.com/KhawajaAbdulMoiz/.AMS/assets/156238498/29643c6d-3f82-47cf-807a-901a835ead35)
 ![Login Page](https://github.com/KhawajaAbdulMoiz/.AMS/assets/156238498/b9bc77e4-bd83-465d-97aa-6b90003f9ada)
 ![Signup Page](https://github.com/KhawajaAbdulMoiz/.AMS/assets/156238498/dc217b1c-b8d5-487f-ac4b-4638d019beb8)
+![26](https://github.com/KhawajaAbdulMoiz/.AMS/assets/156238498/11e70ebd-2b63-4a12-861d-b351cebb9a43)
+
 ![code](https://github.com/KhawajaAbdulMoiz/.AMS/assets/156238498/294031fc-6e63-48c7-83d3-398e83e0422b)
+![code](https://github.com/KhawajaAbdulMoiz/.AMS/assets/156238498/eaa54485-38a8-4da4-8d9b-9a5c46273123)
+![code](https://github.com/KhawajaAbdulMoiz/.AMS/assets/156238498/1f6c306d-42eb-4117-b14e-65a82f86d98e)
+![code](https://github.com/KhawajaAbdulMoiz/.AMS/assets/156238498/ba40d106-82ac-403b-ae12-f923b1a5c2e7)
 
 
 
