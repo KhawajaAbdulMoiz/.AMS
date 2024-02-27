@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requests</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Request.css') }}">
+</head>
+<body>
+    <div id="announcement">
+        <h1>Requests</h1>
+    </div>
+    <div class="contact-form">
+        <h2>Last 10 Submitted Contact Forms:</h2>
+        <ul>
+            {% for submission in last_submissions %}
+                <li>
+                    <strong>Name:</strong> {{ submission.first_name }} {{ submission.last_name }}<br>
+                    <strong>Email:</strong> {{ submission.email }}<br>
+                    <strong>Message:</strong> {{ submission.message }}<br>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

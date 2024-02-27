@@ -1,0 +1,51 @@
+*{
+    /* background: rgb(red, green, blue); */
+    background-color: antiquewhite;
+}
+
+
+
+#announcementForm {
+    margin-bottom: 30px;
+    
+
+    
+    
+}
+
+#announcementText {
+    width: 98.7%;
+    height: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background: rgb(255, 253, 253);
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+   
+    
+
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(9, 11, 11);
+    background-color: rgb(245, 243, 209);
+   
+}
+h1{
+    text-align: center;
+}
+
+#announcements {
+    margin-top: 20px;
+    text-align: left;
+    padding: 4px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}

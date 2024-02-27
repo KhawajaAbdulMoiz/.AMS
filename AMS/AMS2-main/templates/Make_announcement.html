@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Make Announcement </title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Make_announcement.css') }}">
+
+</head>
+<body>
+<h1>Make Announcement</h1>
+<div id="announcementForm">
+    <textarea id="announcementText" placeholder="Write your announcement here..."></textarea>
+    <button onclick="submitAnnouncement()">Submit Announcement</button>
+</div>
+
+<div id="announcements">
+   
+    <!-- Announcements will be displayed here -->
+</div>
+
+<script src="{{ url_for('static', filename='Make_announcement.js') }}"></script>
+</body>
+</html>

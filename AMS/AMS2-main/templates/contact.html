@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='contactstyle.css') }}">
+</head>
+<body>
+    <div class="Contact">
+        <h1>Contact</h1>
+
+        <form method="POST" action="{{ url_for('handle_contact_form') }}">
+            <input type="text" class="input-box" placeholder="First Name" name="first_name" required>
+            <input type="text" class="input-box" placeholder="Last Name" name="last_name" required>
+            <input type="email" class="input-box" placeholder="Email" name="email" required>
+            <textarea class="input-box" placeholder="Type Message..." name="message" required></textarea>
+            <button type="submit" class="Submitbutton">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
